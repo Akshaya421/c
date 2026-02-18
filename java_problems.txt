@@ -1,0 +1,279 @@
+pattern problems----cls 2... gradious
+1.
+
+class Main {
+   public static void main(String[] args){
+    int n=5;
+    for(int i=1; i<=n; i++){
+        for(int j=1; j<=i; j++){
+            System.out.print(i+" ");
+
+        } System.out.println(" ");
+    } int m=4;
+    for(int i=m; i>=1; i--){
+        for(int j=i; j>=1; j--){
+            System.out.print(i+" ");
+
+        }System.out.println(" ");
+    
+}
+
+}
+}
+o/p:  
+1  
+2 2  
+3 3 3  
+4 4 4 4  
+5 5 5 5 5  
+4 4 4 4  
+3 3 3  
+2 2  
+1  
+-----------------------------------------------problem 2---------------
+i/p:  
+     *  
+    *  *  
+   *  *  *  
+  *  *  *  *  
+ *  *  *  *  * 
+program:
+
+class Main {
+   public static void main(String[] args){
+    int n=5;
+    for(int i=1; i<=n; i++){
+        for(int j=1; j<=n-i; j++){
+         
+            System.out.print(" ");
+
+        }
+        for(int k=1; k<=i; k++){
+           System.out.print(" * "); 
+        }
+        System.out.println(" ");
+    } 
+    
+}
+
+}
+-----------------------problem 3----------------------------------
+i/p:
+ *  *  *  *  *  
+  *  *  *  *  
+   *  *  *  
+    *  *  
+     *  
+program:
+class Main {
+   public static void main(String[] args){
+    int n=5;
+    for(int i=n; i>=1; i--){
+        for(int j=1; j<=n-i; j++){
+         
+            System.out.print(" ");
+
+        }
+        for(int k=1; k<=i; k++){
+           System.out.print(" * "); 
+        }
+        System.out.println(" ");
+    } 
+    
+}
+
+}
+--------------------------------problem 4--------------------
+i/p:
+    1  
+   2 2  
+  3 3 3  
+ 4 4 4 4  
+5 5 5 5 5 
+program:
+
+class Main {
+   public static void main(String[] args){
+    int n=5;
+    for(int i=1; i<=n; i++){
+        for(int j=1; j<=n-i; j++){
+         
+            System.out.print(" ");
+}
+        
+        for(int k=1; k<=i; k++){
+  
+           System.out.print(i+" " ); 
+        }  
+        System.out.println(" ");
+    } 
+    
+}
+
+}
+-------------------------------problem 5------------------------
+
+    1  
+   1 2  
+  1 2 3  
+ 1 2 3 4  
+1 2 3 4 5  
+program:
+ 
+class Main {
+   public static void main(String[] args){
+    int n=5;
+    for(int i=1; i<=n; i++){
+        for(int j=1; j<=n-i; j++){
+         
+            System.out.print(" ");
+}
+        
+        for(int k=1; k<=i; k++){
+  
+           System.out.print(k+" "); 
+        }  
+        System.out.println(" ");
+    } 
+    
+}
+
+}
+---------------------------------------problem 6---------------
+i/p:
+______0______ 
+_____0_1_____ 
+____0_1_2____ 
+___0_1_2_3___ 
+__0_1_2_3_4__ 
+_0_1_2_3_4_5_
+program:
+class Main {
+   public static void main(String[] args){
+    int n=5;
+    for(int i=0; i<=n; i++){
+        for(int j=0; j<=n-i; j++){
+         
+            System.out.print("_");
+}
+        
+        for(int k=0; k<=i; k++){
+  
+           System.out.print(k+"_"); 
+        } for(int l=0; l<=n-i-1; l++){
+  
+           System.out.print("_"); 
+        } 
+        
+        System.out.println(" ");
+    } 
+    
+}
+
+}
+---------------------------problem 7-------------
+i/p:
+    a   
+   a b    
+  a b c     
+ a b c d      
+a b c d e 
+program:
+
+class Main {
+   public static void main(String[] args){
+    int n=5;
+    char ch='a';
+    for(int i=1; i<=n; i++){
+        for(int j=1; j<=n-i; j++){
+         
+            System.out.print(" ");
+}
+        
+        for(int k=1; k<=i; k++){
+  
+           System.out.print(ch+" "); 
+           ch++;
+           
+        } 
+        
+        for(int l=1; l<=i; l++){
+  
+           System.out.print(" "); 
+           --ch;
+        } 
+        
+        System.out.println(" ");
+    } 
+    
+}
+
+}
+--------------------------------------problem 8------------------------------
+i/p:
+    a 
+   aba 
+  abcba 
+ abcdcba 
+abcdedcba 
+
+program:
+class Main {
+   public static void main(String[] args){
+    int n=5;
+    char ch='a';
+    for(int j=0; j<n; j++){
+        for(int k=0; k<n-j-1; k++)
+            System.out.print(" ");
+
+        for(int i=0; i<j+1; i++){
+         
+            System.out.print((char)('a'+i));
+}
+        
+        for(int i=j; i>0; i--){
+  
+           System.out.print((char)('a'+(i-1))); 
+        }
+        
+        System.out.println(" ");
+    } 
+    
+}
+
+}
+-----------------------problem 9------------------------
+i/p:
+abcdedcba 
+ abcdcba 
+  abcba 
+   aba 
+    a 
+program:
+
+class Main {
+   public static void main(String[] args){
+    int n=5;
+    
+    for(int j=n-1; j>=0; j--){
+        for(int k=0; k<n-j-1; k++)
+            System.out.print(" ");
+
+        for(int i=0; i<j+1; i++){
+         
+            System.out.print((char)('a'+i));
+}
+        
+        for(int i=j; i>0; i--){
+  
+           System.out.print((char)('a'+(i-1))); 
+        }
+        
+        System.out.println(" ");
+    } 
+    
+}
+
+}
+---------------------------problem 10 -------------------
+i/p:

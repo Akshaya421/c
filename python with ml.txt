@@ -1,0 +1,91 @@
+python with ml
+
+collections.......
+1.list....[1,2,3..]
+2.set...{1,2,3,4}
+3.tuple....(1,2,3,4)
+4.dict.....{1:20,2:40}
+...............
+1.list[1,2,3]
+->
+
+
+
+
+2.set{}
+
+
+
+
+
+3.tuple()
+
+
+
+
+
+4.dict{key:value}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+..........
+conversions of list,tuple,set
+1.convert list to set
+->x=[1,2,3]
+  s=set(x)   >>it is converted to set
+  output:{1,2,3}
+2.convert set to list
+->x={1,2,3}
+  s=list(x)   >>it is converted to list
+ output:[1,2,3]
+3.convert list to tuple
+
+
+
+4.convert set to tuple
+
+
+
+
+f
+
+.......
+consider string 
+s='abc def'
+x=list[s]
+print(x)
+output:['a','b','c',' ','d','e','f']
+
+
+...............................date 22|9|25
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
